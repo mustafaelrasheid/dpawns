@@ -1,0 +1,10 @@
+[package]
+name = "dpawns"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.6.1", features = ["derive"] }
+libc = "0.2.180"
+nix = { version = "0.30.1", features = ["mount", "process", "user", "reboot"] }
+signal-hook = "0.4.1"
