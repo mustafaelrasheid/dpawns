@@ -261,7 +261,7 @@ fn start() {
 	let timezone = get_timezone();
 	let vars = [
 		["PATH",  "/sbin:/usr/bin"],
-		["SHELL", "/usr/bin/bash"],
+		["SHELL", "/sbin/sh"],
 		["TZ",    &timezone]
 	];
 
