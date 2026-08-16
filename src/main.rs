@@ -97,7 +97,7 @@ fn init_udev() -> Option<Child> {
 
 fn init_main_proc() -> Option<Child> {
 	return Command::new("login")
-		.arg("/sbin/entry")
+		.arg("/sbin/entryd")
 		.arg("--set-xdg-runtime-dir")
 		.spawn()
 		.map_err(|e| {
