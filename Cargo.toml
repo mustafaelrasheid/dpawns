@@ -1,7 +1,13 @@
 [package]
 name = "dpawns"
 version = "0.1.0"
+description = "An init system meant to be simple and reliable."
 edition = "2024"
+homepage = "https://github.com/mustafaelrasheid/dpawns"
+repository = "https://github.com/mustafaelrasheid/dpawns"
+license = "MIT"
+keywords = ["pid1", "init", "daemon", "process"]
+categories = ["command-line-utilities"]
 
 [dependencies]
 clap = { version = "4.6.1", features = ["derive"] }
